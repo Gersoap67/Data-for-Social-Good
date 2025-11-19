@@ -1,0 +1,24 @@
+Who Helped Me:
+- AI
+
+What I asked?:
+- I have an array of TeamInfo objects with city, team name, and year founded.
+My only current method gives a true of false if teams have the same founding year.
+How can I think about starting and beginning a method that finds all teams with the oldest founding year and returns them?
+
+What response I recieved:
+- 
+1. Find the oldest year
+Look at every team and figure out which founding year is the earliest
+
+    2. Count how many teams have that oldest year
+    Go through each team and count how many match the oldest year so we know how big our result array should be
+    
+        3. Create an array for the oldest teams
+            Make a container just big enough to hold all the oldest teams
+            
+            4. Fill the array with the oldest teams
+                Go through all the teams again, and put each team with the oldest year into our container, one by one
+                
+                5. Return the array
+                    Give back all the teams that are tied for oldest, so the program can print or use them
